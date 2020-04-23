@@ -1,7 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const PreviewPane = () => <h1>Hello World</h1>;
+import OpenGraphCard from './components/OpenGraphCard/OpenGraphCard';
+import Reset from './components/Reset';
+
+const PreviewPane = () => (
+  <Reset>
+    <OpenGraphCard />
+  </Reset>
+);
 
 PreviewPane.displayName = 'PreviewPane';
 
