@@ -5,9 +5,37 @@ export const container = {
   width: 1200,
 };
 
+export const headline = {
+  color: '#e8f3fc',
+  fontFamily: '"Oswald", sans-serif',
+  height: '100%',
+};
+
 export const inner = {
-  background: 'black',
+  background: '#030e17',
+  borderRadius: 8,
+  boxShadow: `0 11.5px 3.5px rgba(0, 0, 0, 0.025),
+  0 20.1px 11.5px rgba(0, 0, 0, 0.036),
+  0 27.2px 27.7px rgba(0, 0, 0, 0.042),
+  0 36.5px 53.4px rgba(0, 0, 0, 0.048),
+  0 69px 69px rgba(0, 0, 0, 0.07)`,
   display: 'flex',
   flex: 1,
-  margin: '1rem',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  margin: '30px',
+  padding: '30px',
+};
+
+export const tagline = {
+  color: 'white',
+  fontFamily: 'Cascadia Code',
+  fontSize: 24,
+};
+
+export const textfit = {
+  lineHeight: 1.25,
+  maxHeight: '80%',
+  maxWidth: '80%',
+  minHeight: '80%',
 };

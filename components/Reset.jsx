@@ -6,7 +6,6 @@ import { Global, jsx } from '@emotion/core';
 const styles = {
   '*': {
     boxSizing: 'border-box',
-    fontSize: 20,
     margin: 0,
     padding: 0,
   },
