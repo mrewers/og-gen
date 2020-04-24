@@ -1,6 +1,7 @@
 /** @jsx jsx */
 
 import { jsx } from '@emotion/core';
+import { Textfit } from 'react-textfit';
 
 import { container, inner } from './styles';
 
