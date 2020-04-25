@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import OpenGraphCard from './components/OpenGraphCard/OpenGraphCard';
 import Reset from './components/Reset';
 
-const PreviewPane = () => (
+const PreviewPane: React.FC = (): JSX.Element => (
   <Reset>
     <OpenGraphCard />
   </Reset>

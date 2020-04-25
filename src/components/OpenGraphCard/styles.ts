@@ -1,17 +1,19 @@
-export const container = {
+import { css, SerializedStyles } from '@emotion/core';
+
+export const container: SerializedStyles = css({
   background: 'linear-gradient(27deg, rgba(5, 55, 130, 1) 0%, rgba(29, 136, 224, 1) 100%)',
   display: 'flex',
   height: 630,
   width: 1200,
-};
+});
 
-export const headline = {
+export const headline: SerializedStyles = css({
   color: '#e8f3fc',
   fontFamily: '"Oswald", sans-serif',
   height: '100%',
-};
+});
 
-export const inner = {
+export const inner: SerializedStyles = css({
   background: '#030e17',
   borderRadius: 8,
   boxShadow: `0 11.5px 3.5px rgba(0, 0, 0, 0.025),
@@ -25,15 +27,15 @@ export const inner = {
   justifyContent: 'space-between',
   margin: '30px',
   padding: '30px',
-};
+});
 
-export const tagline = {
+export const tagline: SerializedStyles = css({
   color: 'white',
   fontFamily: 'Cascadia Code',
   fontSize: 24,
-};
+});
 
-export const textfit = {
+export const textfit: ITextFitStyle = {
   lineHeight: 1.25,
   maxHeight: '80%',
   maxWidth: '80%',

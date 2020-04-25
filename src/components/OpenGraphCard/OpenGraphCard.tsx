@@ -5,7 +5,7 @@ import { Textfit } from 'react-textfit';
 
 import { container, headline, inner, tagline, textfit } from './styles';
 
-const OpenGraphCard = () => (
+const OpenGraphCard = (): JSX.Element => (
   <div css={container}>
     <div css={inner}>
       <h1 css={headline}>
