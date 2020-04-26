@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { FC, ReactElement } from 'react';
 import ReactDOM from 'react-dom';
 
 import OpenGraphCard from './components/OpenGraphCard/OpenGraphCard';
 import Reset from './components/Reset';
 
-const PreviewPane: React.FC = (): JSX.Element => (
+const PreviewPane: FC = (): ReactElement => (
   <Reset>
-    <OpenGraphCard />
+    <OpenGraphCard title="Hello Open Graph Card" />
   </Reset>
 );
 

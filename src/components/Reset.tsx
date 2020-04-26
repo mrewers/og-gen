@@ -11,7 +11,7 @@ const styles: SerializedStyles = css({
   },
 });
 
-const Reset: FC = ({ children }: Readonly<{ children?: ReactNode }>): JSX.Element => (
+const Reset: FC = ({ children }: Readonly<{ children?: ReactNode }>) => (
   <Fragment>
     <Global styles={styles} />
     {children}
